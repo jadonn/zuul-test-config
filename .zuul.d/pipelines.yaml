@@ -1,0 +1,6 @@
+- pipeline:
+    name: check
+    manager: independent
+    trigger:
+      git:
+        - event: ref-updated
