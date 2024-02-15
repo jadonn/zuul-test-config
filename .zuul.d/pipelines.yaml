@@ -6,10 +6,6 @@
     trigger:
       jadon-git:
         event: ref-updated
-    success:
-      mysql:
-    failure:
-      mysql:
 - pipeline:
     name: periodic-second
     success-message: "SUCCESS!"
@@ -18,7 +14,3 @@
     trigger:
       timer:
         - time: '* * * * *'
-    success:
-      mysql:
-    failure:
-      mysql:
