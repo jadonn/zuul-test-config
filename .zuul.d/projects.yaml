@@ -10,6 +10,6 @@
         - noop
 
 - project:
-    name: seconds
+    name: jadonn/zuul-test-jobs
     periodic-seconds:
       jobs: []
