@@ -1,5 +1,7 @@
 - pipeline:
     name: check
+    success-message: "SUCCESS!"
+    failure-message: "FAILURE!"
     manager: independent
     trigger:
       git:
@@ -10,6 +12,8 @@
       mysql:
 - pipeline:
     name: periodic-second
+    success-message: "SUCCESS!"
+    failure-message: "FAILURE!"
     manager: independent
     trigger:
       timer:
