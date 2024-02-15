@@ -4,7 +4,7 @@
       jobs: []
 
 - project:
-    name: zuul-config
+    name: jadonn/zuul-test-config
     check:
       jobs:
         - noop
