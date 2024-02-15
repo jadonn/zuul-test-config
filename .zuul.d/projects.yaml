@@ -13,3 +13,8 @@
     gate:
       jobs:
         - noop
+
+- project:
+    name: seconds
+    periodic-seconds:
+      jobs: []
