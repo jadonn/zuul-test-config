@@ -5,7 +5,7 @@
     manager: independent
     trigger:
       git:
-        - event: ref-updated
+        event: ref-updated
     success:
       mysql:
     failure:
