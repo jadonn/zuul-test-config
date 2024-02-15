@@ -4,3 +4,17 @@
     trigger:
       git:
         - event: ref-updated
+    success:
+      mysql:
+    failure:
+      mysql:
+- pipeline:
+    name: periodic-second
+    manager: independent
+    trigger:
+      timer:
+        - time: '* * * * *'
+    success:
+      mysql:
+    failure:
+      mysql:
